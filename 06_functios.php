@@ -24,3 +24,6 @@ $subrtact = function ($n1, $n2) {
 };
 echo $subrtact(10, 5);
 echo "<br>";
+// если функция простая в одну строку, то можно использовать сокращенную запись:
+$multyplay = fn ($x, $y) => $x * $y;
+echo $multyplay(2, 9);
