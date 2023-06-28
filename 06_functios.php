@@ -18,3 +18,9 @@ function sum_2($num3 = 3, $num4 = 5)
 }
 echo sum_2();
 echo "<br>";
+// анонимные функции
+$subrtact = function ($n1, $n2) {
+  return $n1 - $n2;
+};
+echo $subrtact(10, 5);
+echo "<br>";
